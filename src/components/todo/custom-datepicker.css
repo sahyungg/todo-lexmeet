@@ -1,0 +1,25 @@
+
+
+/* Customize the selected day */
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+    background-color: #F4512C; /* Orange background */
+    color: white; /* White text color */
+}
+
+/* Customize the hover state for days */
+.react-datepicker__day:hover {
+    background-color: #F4512C; /* Orange background */
+    color: white; /* White text color */
+    border-radius: 50%; /* Rounded day cell */
+}
+
+/* Customize the input field */
+.custom-datepicker-input {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #D3D3D3; /* Light gray border */
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: grey; /* Dark violet text color */
+}
